@@ -44,7 +44,7 @@ Example:
 import (
 	"/path/to/generated/example"
 
-	"github.com/fiorix/wsdl2go/soap"
+	"github.com/denisbetsi/wsdl2go/soap"
 )
 
 func main() {
