@@ -37,9 +37,9 @@ type Header interface{}
 // AuthHeader is a Header to be encoded as the SOAP Header element in
 // requests, to convey credentials for authentication.
 type AuthHeader struct {
-	Namespace string `xml:"xmlns:ns,attr"`
-	Username  string `xml:"ns:username"`
-	Password  string `xml:"ns:password"`
+	Namespace string `xml:"xmlns,attr"`
+	Username  string `xml:"username"`
+	Password  string `xml:"password"`
 }
 
 // Client is a SOAP client.
@@ -236,7 +236,7 @@ func (e *HTTPError) Error() string {
 type Envelope struct {
 	XMLName      xml.Name `xml:"SOAP-ENV:Envelope"`
 	EnvelopeAttr string   `xml:"xmlns:SOAP-ENV,attr"`
-	NSAttr       string   `xml:"xmlns:ns,attr"`
+	NSAttr       string   `xml:"xmlns,attr"`
 	TNSAttr      string   `xml:"xmlns:tns,attr,omitempty"`
 	URNAttr      string   `xml:"xmlns:urn,attr,omitempty"`
 	XSIAttr      string   `xml:"xmlns:xsi,attr,omitempty"`

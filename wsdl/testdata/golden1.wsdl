@@ -5,7 +5,7 @@
  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
- xmlns:ns="http://localhost:9999"
+ xmlns="http://localhost:9999"
  xmlns:SOAP="http://schemas.xmlsoap.org/wsdl/soap/"
  xmlns:MIME="http://schemas.xmlsoap.org/wsdl/mime/"
  xmlns:DIME="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/"
@@ -17,7 +17,7 @@
  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
- xmlns:ns="http://localhost:9999"
+ xmlns="http://localhost:9999"
  xmlns="http://www.w3.org/2001/XMLSchema">
 
 </schema>
